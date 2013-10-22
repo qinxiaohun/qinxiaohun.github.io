@@ -1,0 +1,63 @@
+* CSS Document */
+
+body { margin:0 auto; font-size:12px; font-family:Verdana; line-height:1.5;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p{ padding:0; margin:0;}
+ul { list-style:none;}
+img { border:0px;}
+a { color:#05a; text-decoration:none;}
+a:hover { color:#f00;}
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+
+
+/*body*/
+#container { width:900px; margin:0 auto; overflow:auto; zoom:1;}
+
+/*header*/
+#header { height:141px;}
+#logo { float:left; margin-top:18px;}
+#head { float:right; margin-top:18px;}
+
+#nav { height:40px; margin-bottom:8px; padding:0 0 0 0;}
+#nav ul {list-style:none; margin:5px 70px 0 70px;}
+#nav ul li {float:left; margin:0 10px; font-size:15px; font-family:Papyrus; display:block; line-height:1; font-weight:bold; display:inline;}
+#nav ul li a{color:#333333;}
+#nav ul li a:hover{color:#FF99CC;}
+#nav ul li a:visit{font-weight:bold; color:#FF66CC;}
+.navDiv { width:1px; height:18px; background:#333333; margin:5px 0 0 0;}
+
+/*#nav ul li a:link{font-weight:bold; color:#FF99CC}
+#nav ul li a:visit{font-weight:bold; color:#FF66CC}*/
+/*body.li#about,body.about li#about a,body.services li#services,body.services li#services a,body.portfolio li#portfolio,body.portfolio li#portfolio a,body.contact li#contact,body.contact li#contact a {background-position: 0 -100px;} */
+/*
+.nav_main { height:36px; overflow:hidden;}
+.nav_main ul li { float:left; font-size:14px; font-weight:normal; margin:5px 70px 0 70px; font-family:Papyrus}
+.nav_main ul li a { float:left; display:block; height:26px; line-height:26px; color:#000000; padding-left:20px;}
+.nav_main ul li a span { display:block; padding-right:20px;}
+.nav_main ul li a:hover { background:url(../images/nav_bg.gif) 0 -163px no-repeat;}
+.nav_main ul li a:hover span { background:url(../images/nav_bg.gif) right -163px no-repeat;}
+.nav_main ul li a#nav_current { height:31px; line-height:31px; background:url(../images/nav_bg.gif) 0 -132px no-repeat; color:#646464;}
+.nav_main ul li a#nav_current span { height:31px; background:url(../images/nav_bg.gif) right -132px no-repeat;}
+*/
+
+
+/*main*/
+#maincontent { margin-bottom:0; overflow:auto;}
+#main { float:left; width:584px; height:707px; background-image:url(../images/content.gif); overflow-y: auto;}
+#main h1{ margin: 80px 80px 0 100px; font-size:18px; font-family:Book Antiqua; font-weight:lighter}
+#main h3{ margin: 0 80px 0 140px; font-size:15px; font-family:Book Antiqua; font-weight:lighter}
+#main h4{ margin: 80px 20px 0 110px; font-size:23px; font-family:High Tower Text; font-weight:lighter}
+#main h5{ margin: 0 80px 0 130px; font-size:15px; font-family:Book Antiqua; font-weight:lighter}
+#main h6{ margin: 0 80px 0 172px; font-size:15px; font-family:Book Antiqua; font-weight:lighter}
+#TitlePhoto {margin: 50px 77px 0 100px;}
+#LifePhoto {margin: 30px 77px 50px 108px;}
+
+
+#side { float:right; width:314px; height:707px; background-image:url(../images/side.gif);}
+#side h2{ margin: 60px 50px 0 60px; font-size:17px; font-family:Poor Richard;font-weight:100}
+
+/*.side_box { margin-bottom:8px;}
+/*.side_con { padding:10px; background:url(../images/side.gif) 0 bottom no-repeat;}*/
+
+/*footer*/
+#footer { clear:both; float:left; width:899px; height:176px; background-image:url(../images/foot_emp.gif);}
+#footer h6{ font-size:10px; margin: 110px 0 0 120px;}
